@@ -1,0 +1,74 @@
+/* Jadon Schuler
+ * Copyright 2021
+ */
+
+ /* 
+  * pallette URL: https://coolors.co/ffbfad-d84654-94a58d-577574-171738
+  */
+
+body, html {
+    font-family: 'Noto Sans';
+    color: slategray;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.site-wrapper {
+    min-height: 100%;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+.site-header {
+    background: #171738;
+}
+
+.site-title {
+    font-size: 3rem;
+    color: #FFBFAD;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.site-nav {
+    width: auto;
+    float: bottom;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    color: #577574;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1ex;
+}
+
+.nav-item:hover {
+    color: #94A58D;
+}
+
+.nav-item.selected {
+    color: #94A58D;
+}
+
+.quote {
+    display: flex;
+    width:auto;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    color: #D84654;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 400;
+}
