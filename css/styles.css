@@ -15,6 +15,13 @@ body, html {
     padding: 0;
 }
 
+canvas {
+    display: block;
+    /* background-color: #228B22; */
+    /* margin: auto; */
+    cursor: move;
+}
+
 .site-wrapper {
     min-height: 100%;
 }
